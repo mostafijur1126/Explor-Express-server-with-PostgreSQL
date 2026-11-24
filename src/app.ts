@@ -5,6 +5,7 @@ import express, {
 } from "express";
 import { userRouter } from "./modules/users/user.route.js";
 import { profileRouter } from "./modules/profile/profile.route.js";
+import { authRouter } from "./modules/auth/auth.route.js";
 
 const app: Application = express();
 
@@ -14,6 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use("/api/v1/users", userRouter);
 app.use("/api/v1/profile", profileRouter);
+app.use("/api/v1/auth", authRouter);
 
 app.get("/", (req: Request, res: Response) => {
   res.status(200).json({

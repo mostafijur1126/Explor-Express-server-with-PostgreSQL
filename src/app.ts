@@ -7,11 +7,15 @@ import { userRouter } from "./modules/users/user.route.js";
 import { profileRouter } from "./modules/profile/profile.route.js";
 import { authRouter } from "./modules/auth/auth.route.js";
 
+import logger from "./middleware/logger.js";
+
 const app: Application = express();
 
 app.use(express.json());
 app.use(express.text());
 app.use(express.urlencoded({ extended: true }));
+
+app.use(logger);
 
 app.use("/api/v1/users", userRouter);
 app.use("/api/v1/profile", profileRouter);

@@ -84,3 +84,51 @@ Method: GET | URL: /api/v1/users | Time: 1795587581860
 Method: GET | URL: /api/v1/users | Time: 1795587698594
 
 Method: GET | URL: /api/v1/users | Time: 1795587711491
+
+Method: GET | URL: /api/v1/users | Time: 1795601920320
+
+Method: POST | URL: /api/v1/auth/login | Time: 1795601940692
+
+Method: GET | URL: /api/v1/users/4 | Time: 1795601973858
+
+Method: POST | URL: /api/v1/auth/login | Time: 1795602013892
+
+Method: GET | URL: /api/v1/users | Time: 1795602033470
+
+Method: GET | URL: /api/v1/users | Time: 1795602043458
+
+Method: GET | URL: /api/v1/users | Time: 1795602117377
+
+Method: GET | URL: /api/v1/users | Time: 1795602379988
+
+Method: GET | URL: /api/v1/users | Time: 1795602387825
+
+Method: GET | URL: /api/v1/users | Time: 1795604101894
+
+Method: GET | URL: /api/v1/users | Time: 1795604109451
+
+Method: POST | URL: /api/v1/auth/login | Time: 1795604113837
+
+Method: POST | URL: /api/v1/auth/login | Time: 1795604669780
+
+Method: POST | URL: /api/v1/auth/login | Time: 1795604708093
+
+Method: POST | URL: /api/v1/auth/login | Time: 1795604826007
+
+Method: POST | URL: /api/v1/auth/refresh-token | Time: 1795604874591
+
+Method: POST | URL: /api/v1/auth/refresh-token | Time: 1795604898807
+
+Method: POST | URL: /api/v1/auth/refresh-token | Time: 1795623567293
+
+Method: POST | URL: /api/v1/auth/refresh-token | Time: 1795623670143
+
+Method: POST | URL: /api/v1/auth/refresh-token | Time: 1795624957875
+
+Method: POST | URL: /api/v1/auth/refresh-token | Time: 1795625026745
+
+Method: POST | URL: /api/v1/auth/refresh-token | Time: 1795625156756
+
+Method: POST | URL: /api/v1/auth/login | Time: 1795625237733
+
+Method: POST | URL: /api/v1/auth/refresh-token | Time: 1795625245873
